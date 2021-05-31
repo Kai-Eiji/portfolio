@@ -33,7 +33,7 @@ export default class About extends Component {
                </div>
 
                <h2>Resume PDF</h2>
-               <a href='pdf/Kai_Burkholder_Resume.pdf' target='_blank' rel='noopener noreferrer'>open pdf</a>
+               <a href='images/Kai_Burkholder_Resume.pdf' target='_blank' rel='noopener noreferrer'>open pdf</a>
                
             </div>
          </div>
