@@ -4,6 +4,19 @@ export default  class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
+        <div className="pdf-button">
+          
+            <h2>Resume PDF</h2>
+                <button style={{backgroundColor: "#11ABB0"}}>
+                  <a href='https://kai-resume.s3.us-east-2.amazonaws.com/Kai_Burkholder_Resume_2021.pdf' 
+                      className="pdf-link"
+                      target='_blank' 
+                      rel='noopener noreferrer'>
+                        open pdf
+                  </a>
+                </button>
+          
+        </div>
 
          <div className="row education">
 

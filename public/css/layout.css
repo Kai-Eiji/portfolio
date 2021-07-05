@@ -237,7 +237,7 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 40px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -287,6 +287,18 @@ ul#nav li.current a { color: #F06000; }
    color: #000;
 }
 
+#resume .pdf-button {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#resume .pdf-link {
+   color: aliceblue !important;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -297,6 +309,10 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 72px;
    overflow: hidden;
 }
+
+/* #skills .row {
+   display: flex;
+} */
 
 #skills a, #resume a:visited  { color: #11ABB0; }
 #skills a:hover, #resume a:focus { color: #313131; }
@@ -309,6 +325,20 @@ ul#nav li.current a { color: #F06000; }
 #skills h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+}
+
+#skills .skill-sets {
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 30px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+#skills .skill-category {
+   flex-grow: 1;
+   padding-right: 20px;
+   min-width: 230px;
 }
 
 .bars {
@@ -331,11 +361,16 @@ ul#nav li.current a { color: #F06000; }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
-	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
 	top: -22px;
+}
+.bars li img {
+   height: 25px;
+   width: 25px;
+   margin-top: -25px;
+   margin-right: 10px;
 }
 .bar-expand {
    position: absolute;
@@ -377,17 +412,37 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .aws {
-  	width: 80%;
+  	width: 60%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
 .react {
+   width: 80%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.javascript {
    width: 70%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
-.js\/node {
+.go {
    width: 70%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.mysql {
+   width: 80%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.mongodb {
+   width: 60%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.pytorch {
+   width: 60%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }

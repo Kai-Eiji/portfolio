@@ -34,12 +34,25 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Software Engineer Intern",
+        "specialization":"Lockheed Martin",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"June 2021 - Argust 2021",
+        "Achievments": [
+          {"Achievement":"Full-Stack Software Engineer at Lockheed Martin Software Factory Team."},
+          {"Achievement":"Developed a new application for marketing content management"},
+          {"Achievement": "Built backend-service with Go and MongoDB, built frontend \
+          application with React.js as part of Micro-Frontend architecture, wrote tests for the backend-service with \
+          Go, set up CI/CD pipeline for deployment."}
+        ]
+      },
+      {
         "CompanyName":"Research Intern",
         "specialization":"Lehigh University (Remote)",
         "MonthOfLeaving":"",
         "YearOfLeaving":"May 2020 - May 2021",
         "Achievments": [
-          {"Achievement":"Worked to publish a research paper; “Certification and Trade-off of Multiple Fairness Criteria in Graph-based Spam Detection”\
+          {"Achievement":"Worked to publish a research paper, “Certification and Trade-off of Multiple Fairness Criteria in Graph-based Spam Detection”\
           as one of the first author. Currently under review for CIKM 2021."},
           {"Achievement":"Implemented Multi-Objective-Optimization Algorithm for GNN (Graph Neural Networks) with PyTorch."},
           {"Achievement" : "Constructed multiple fairness metrics to measure discrepant spammer detection results for GNN."},
@@ -67,34 +80,57 @@ let resumeData = {
         ]
       }
     ],
-    "skillsDescription":"",
-    "skills":[
+    "skillCategories":[
       {
-        "skillname":"Python"
+        "skillsDescription":"Programming Language",
+        "skills":[
+          {
+            "skillname":"Python"
+          },
+          {
+            "skillname":"Java"
+          },
+          {
+            "skillname":"Go"
+          },
+          {
+            "skillname":"C"
+          },
+          {
+            "skillname":"JavaScript"
+          },
+        ],
       },
       {
-        "skillname":"Java"
+        "skillsDescription":"Frameworks",
+        "skills":[
+          {
+            "skillname":"Django"
+          },
+          {
+            "skillname":"React.js"
+          },
+          {
+            "skillname":"AWS"
+          }, 
+          {
+            "skillname": "PyTorch"
+          },
+          
+        ],
       },
       {
-        "skillname":"Django"
-      },
-      {
-        "skillname":"AWS"
-      },
-      
-      {
-        "skillname":"SQL"
-      },
-      {
-        "skillname":"React.js"
-      },
-      {
-        "skillname":"C"
-      },
-      {
-        "skillname":"JS/Node.Js"
-      },
-      
+        "skillsDescription": "Databese",
+        "skills":[
+          {
+            "skillname":"MySQL"
+          },
+          {
+            "skillname":"MongoDB"
+          },
+          
+        ],
+      }
     ],
     "portfolio":[
       {
